@@ -121,7 +121,7 @@ jobs:
           platform: linux
           arch: x64
           runner_type: GitHub
-        - os: setup-actions-ubuntu-arm64-2-core
+        - os: ubuntu-latest
           platform: linux
           arch: arm64
           runner_type: self-hosted
@@ -137,7 +137,7 @@ jobs:
           platform: win32
           arch: x64
           runner_type: GitHub
-        - os: setup-actions-windows-arm64-4-core
+        - os: windows-latest
           platform: win32
           arch: arm64
           runner_type: self-hosted
