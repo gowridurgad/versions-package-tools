@@ -20,6 +20,7 @@ on:
         description: "Whether to publish releases"
         required: true
         type: boolean
+      workflow_dispatch:
         
 defaults:
   run:
